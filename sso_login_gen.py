@@ -3,7 +3,7 @@ import pandas as pd
 
 #1. Combinining whole month data:
 # Set the path to the folder containing the Excel files
-path = '../aws_logs/'
+path = './aws_logs/'
 
 # Get a list of all Excel files in the folder
 files = [os.path.join(path, f) for f in os.listdir(path) if f.endswith('.xlsx')]
